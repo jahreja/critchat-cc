@@ -1,0 +1,22 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.Home {
+    min-height: 100vh;
+    background: #F8F7F9;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.main-logo {
+    height: 20vh;
+    transition: 0.5s all ease;
+}
+
+.main-logo:hover {
+    height: 22vh;
+}
